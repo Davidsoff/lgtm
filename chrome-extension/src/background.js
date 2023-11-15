@@ -84,5 +84,5 @@ function getRandomGif() {
         "![Shaun The Sheep](https://media2.giphy.com/media/tIeCLkB8geYtW/giphy.gif?cid=47028fa81rda1t2f7b12e0cyh0rlj4hnehstygaulemz4h55&ep=v1_gifs&rid=giphy.gif&ct=g)",
         "![Community Thumbs Up](https://media4.giphy.com/media/FufPwnJGp6lGwNyqXr/giphy.gif?cid=47028fa81rda1t2f7b12e0cyh0rlj4hnehstygaulemz4h55&ep=v1_gifs&rid=giphy.gif&ct=g)"
     ]
-    return items[Math.floor(Math.random()*items.length)];
+    return {"markdown": items[Math.floor(Math.random()*items.length)]} ;
 }

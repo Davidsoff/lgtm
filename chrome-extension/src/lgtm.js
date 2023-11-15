@@ -14,7 +14,7 @@ chrome.runtime.onMessage.addListener(
             // message.type = lgtmNoSubmitType; // debug
 
             var wasSubmitted = submitAsComment(message) || submitAsReview(message);
-            if (wasSubmitted && message.lgtm) console.log('LGTMed! with', message.lgtm['imageUrl']);
+            if (wasSubmitted && message.lgtm) console.log('LGTMed! with', message.lgtm['markdown']);
         }
     }
 );

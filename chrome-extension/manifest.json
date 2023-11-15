@@ -41,7 +41,6 @@
     }
   ],
   "permissions": [
-    "https://us-central1-lgtm-reloaded.cloudfunctions.net/lgtm",
     "https://github.com/",
     "declarativeContent"
   ]
