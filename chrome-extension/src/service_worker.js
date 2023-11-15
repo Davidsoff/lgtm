@@ -17,7 +17,7 @@ chrome.runtime.onInstalled.addListener(function () {
     });
 });
 
-chrome.pageAction.onClicked.addListener(function (event) {
+chrome.action.onClicked.addListener(function (event) {
     //console.log("Page action:", event);
     lgtm();
 });
